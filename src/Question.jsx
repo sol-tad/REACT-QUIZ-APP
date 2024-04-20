@@ -1,10 +1,12 @@
+import Options from "./components/Options";
 
-function Question() {
+function Question({ question }) {
   return (
     <div>
-      Questions
+      <h4>{question.question}</h4>
+      <Options question={question} />
     </div>
-  )
+  );
 }
 
-export default Question
+export default Question;
