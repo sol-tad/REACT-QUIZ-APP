@@ -1,7 +1,7 @@
 function StartScreen({ numQuestions, dispatch }) {
   return (
     <div>
-      <h2>Welcome to The react Quiz</h2>
+      <h2 className="welcome">Welcome to The react Quiz</h2>
       <h3>{numQuestions} question to test your React mastery</h3>
 
       <button

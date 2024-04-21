@@ -8,7 +8,6 @@
   --color-accent: #ffa94d;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Codystar&display=swap");
 
 
 * {
@@ -19,9 +18,18 @@
 
 html {
   font-size: 62.5%;
-  font-family:Codystar
+  font-family: BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
+    "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+
+
+.codystar-regular,
+.welcome {
+  font-family: "Codystar", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 body {
   min-height: 100vh;
